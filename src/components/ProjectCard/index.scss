@@ -1,0 +1,19 @@
+@import 'src/_variables.scss';
+
+.project {
+  margin-bottom: 1rem;
+
+  h2 {
+    color: $secondaryColor;
+  }
+
+  a, a:visited {
+    display: inline-block;
+    background-color: $primaryColor;
+    color: white;
+    margin: .5rem .5rem 0 0;
+    padding: .3rem;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+}

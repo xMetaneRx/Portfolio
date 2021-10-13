@@ -1,0 +1,29 @@
+@import 'src/_variables.scss';
+
+.profile {
+  width: 100%;
+  margin-top: 2%;
+  padding: 1em;
+  border: 1px solid $primaryColor;
+  border-radius: 4px;
+  word-wrap: break-word;
+
+  &__link {
+    margin-bottom: .75rem;
+  }
+
+  h4 {
+    margin-top: 3%;
+  }
+
+  p {
+    img {
+      width: 75%;
+    }
+  }
+
+  .language-js {
+    width: 100%;
+    white-space: pre-wrap;
+  }
+}

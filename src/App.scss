@@ -1,0 +1,132 @@
+@import "src/_variables.scss";
+
+body {
+  background-color: $backgroundColor;
+  color: $textColor;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+.App {
+  width: 100%;
+  .main__nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem;
+    background-color: $primaryColor;
+
+    .hidden-mobile {
+      display: none;
+    }
+
+    @media (min-width: 600px) {
+      .hidden-mobile {
+        display: initial;
+      }
+    }
+
+    div {
+      &:nth-child(1) {
+        width: 70%;
+        display: inline-flex;
+        flex-direction: row;
+      }
+
+      input {
+        border-radius: 3px;
+        border: 2px solid $secondaryColor;
+        background-color: transparent;
+        color: $textColor;
+
+        &::placeholder {
+          color: $textColor;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      &:nth-child(2) {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      p {
+        margin: 0 1.5% !important;
+        font-weight: 600;
+      }
+
+      svg {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1.5% !important;
+      }
+
+      @media (min-width: 600px) {
+        p, svg {
+          margin: 0 .5%;
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    @media (min-width: 768px) {
+      width: 75%;
+      flex-direction: row;
+      text-align: initial;
+    }
+
+    @media (min-width: 1100px) {
+      width: 65%;
+    }
+
+    @media (min-width: 1400px) {
+      width: 50%;
+    }
+
+    .sidebar {
+      width: 100%;
+
+      @media (min-width: 768px) {
+        width: 30%;
+      }
+    }
+
+    .content {
+      width: 100%;
+      margin-top: 10%;
+
+      nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1rem 0;
+        gap: 1rem;
+        background-color: transparent;
+      }
+
+      @media (min-width: 768px) {
+        width: 70%;
+        margin-top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "src/_variables.scss";
+
+nav {
+  a {
+    text-decoration: none;
+    margin-right: 1rem;
+
+   &:visited {
+     color: $textColor;
+   }
+  }
+
+  .active {
+    border-bottom: 1px solid #F2F2F2;
+  }
+}
