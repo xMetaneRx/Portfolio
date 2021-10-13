@@ -57,7 +57,7 @@ body {
       }
 
       p {
-        margin: 0 1.5% !important;
+        margin: 0 1.5rem;
         font-weight: 600;
       }
 
@@ -65,12 +65,12 @@ body {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        margin: 0 1.5% !important;
+        margin: 0 1.5rem;
       }
 
       @media (min-width: 600px) {
         p, svg {
-          margin: 0 .5%;
+          margin: 0 .5rem;
         }
       }
     }
