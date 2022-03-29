@@ -12,18 +12,23 @@
     margin-bottom: .75rem;
   }
 
-  h4 {
+  h3 {
     margin-top: 3%;
   }
 
-  p {
-    img {
-      width: 75%;
-    }
+  &__connection, &__information, &__readme__streak, &__readme__stats {
+    margin: 1rem 0;
   }
 
-  .language-js {
-    width: 100%;
-    white-space: pre-wrap;
+  &__information, &__connection {
+    img {
+      margin: .5rem .1rem;
+    }
+  }
+  
+  &__readme__streak, &__readme__stats {
+    img {
+      width: 100%;
+    }
   }
 }

@@ -19,7 +19,7 @@ function App() {
      <Router>
              <nav className="main__nav">
                  <div>
-                     <Icon.GitHub color="white" size={18} />
+                     <Icon.GitHub color="white" size={24} />
                      <input type="text" placeholder="Search or jump to..." />
                      <p className="hidden-mobile">Pulls</p>
                      <p className="hidden-mobile">Issues</p>
