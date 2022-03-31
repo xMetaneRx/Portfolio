@@ -3,11 +3,11 @@ import './index.scss';
 const Profile = () => {
     return (
         <div className="profile">
-            <h2 className="profile__link">MetaneRuS/README.md</h2>
+            <h2 className="profile__link">xMetaneRx/README.md</h2>
             <h3 className="profile__description">I enjoy programming, creating Web applications, listening to music (mostly rap). I am currently developing my skills in: Javascript, React, Redux, Typescript</h3>
             <div className='profile__connection'>
                 <h3>Connect with me:</h3>
-                <a href="https://dev.to/metanerus" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="metanerus" height="30" width="40" /></a>
+                <a href="https://dev.to/metanerus" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="xMetaneRx" height="30" width="40" /></a>
             </div> 
             <div className='profile__information'>
                 <h3>Languages and Tools:</h3>
@@ -21,10 +21,10 @@ const Profile = () => {
                 <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
             </div>
             <div className='profile__readme__stats'>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs?username=metanerus&show_icons=true&locale=en&layout=compact" alt="metanerus" />
+                <img src="https://github-readme-stats.vercel.app/api/top-langs?username=xmetanerx&show_icons=true&locale=en&layout=compact" alt="xMetaneRx" />
             </div>
             <div className='profile__readme__streak'>
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=metanerus&" alt="metanerus" />
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=xmetanerx&" alt="xMetaneRx" />
             </div>
         </div>
     )

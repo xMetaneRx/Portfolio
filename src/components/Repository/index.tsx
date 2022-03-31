@@ -6,7 +6,7 @@ const Repository = () => {
     const [repositories, setRepositories] = useState<[]>([]);
 
     useEffect(() => {
-        fetch('https://api.github.com/users/MetaneRuS/repos')
+        fetch('https://api.github.com/users/xMetaneRx/repos')
             .then(res => res.json())
             .then(repository => setRepositories(repository));
     }, [])

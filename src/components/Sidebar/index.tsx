@@ -9,7 +9,7 @@ const Sidebar = () => {
     });
 
     useEffect(() => {
-        fetch('https://api.github.com/users/MetaneRuS')
+        fetch('https://api.github.com/users/xMetaneRx')
             .then(res => res.json())
             .then(info => setInformation({
                 avatar: info.avatar_url,

@@ -6,7 +6,7 @@ const Project = () => {
     const [projects, setProjects] = useState<[]>([]);
 
     useEffect(() => {
-        fetch('https://api.github.com/users/MetaneRuS/repos')
+        fetch('https://api.github.com/users/xMetaneRx/repos')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
