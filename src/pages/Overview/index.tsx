@@ -1,14 +1,12 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react";
 import Profile from "../../components/Profile";
 
 function Overview() {
     useEffect(() => {
-        document.title = 'Overview';
+        document.title = "Overview";
     }, []);
 
-    return (
-        <Profile />
-    );
+    return <Profile />;
 }
 
 export default Overview;

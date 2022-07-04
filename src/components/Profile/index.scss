@@ -1,34 +1,39 @@
-@import 'src/_variables.scss';
+@import "src/_variables.scss";
 
 .profile {
-  width: 100%;
-  margin-top: 2%;
-  padding: 1em;
-  border: 1px solid $primaryColor;
-  border-radius: 4px;
-  word-wrap: break-word;
+    width: 100%;
+    margin-top: 2%;
+    padding: 1em;
+    border: 1px solid $primaryColor;
+    border-radius: 4px;
+    word-wrap: break-word;
 
-  &__link {
-    margin-bottom: .75rem;
-  }
-
-  h3 {
-    margin-top: 3%;
-  }
-
-  &__connection, &__information, &__readme__streak, &__readme__stats {
-    margin: 1rem 0;
-  }
-
-  &__information, &__connection {
-    img {
-      margin: .5rem .1rem;
+    &__link {
+        margin-bottom: 0.75rem;
     }
-  }
-  
-  &__readme__streak, &__readme__stats {
-    img {
-      width: 100%;
+
+    h3 {
+        margin-top: 3%;
     }
-  }
+
+    &__connection,
+    &__information,
+    &__readme__streak,
+    &__readme__stats {
+        margin: 1rem 0;
+    }
+
+    &__information,
+    &__connection {
+        img {
+            margin: 0.5rem 0.1rem;
+        }
+    }
+
+    &__readme__streak,
+    &__readme__stats {
+        img {
+            width: 100%;
+        }
+    }
 }

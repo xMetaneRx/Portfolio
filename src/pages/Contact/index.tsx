@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react";
 import Contact from "../../components/Contact";
 
 function ContactMe() {
@@ -6,9 +6,7 @@ function ContactMe() {
         document.title = "Contact";
     }, []);
 
-    return (
-        <Contact />
-    );
+    return <Contact />;
 }
 
 export default ContactMe;

@@ -1,5 +1,5 @@
-import React from 'react';
-import './index.scss';
+import React from "react";
+import "./index.scss";
 
 const Contact = () => {
     return (
@@ -16,6 +16,6 @@ const Contact = () => {
             </form>
         </div>
     );
-}
+};
 
 export default Contact;

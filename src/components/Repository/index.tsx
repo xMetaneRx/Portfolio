@@ -1,21 +1,26 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 import RepositoryCard from "../RepositoryCard";
-import './index.scss';
+import "./index.scss";
 
 const Repository = () => {
     const [repositories, setRepositories] = useState<[]>([]);
 
     useEffect(() => {
-        fetch('https://api.github.com/users/xMetaneRx/repos')
-            .then(res => res.json())
-            .then(repository => setRepositories(repository));
-    }, [])
+        fetch("https://api.github.com/users/xMetaneRx/repos")
+            .then((res) => res.json())
+            .then((repository) => setRepositories(repository));
+    }, []);
 
     return (
         <div className="repositories">
-            {repositories.map(repository => <RepositoryCard key={repository['id']} repository={repository} />)}
+            {repositories.map((repository) => (
+                <RepositoryCard
+                    key={repository["id"]}
+                    repository={repository}
+                />
+            ))}
         </div>
-    )
-}
+    );
+};
 
 export default Repository;

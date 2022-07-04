@@ -1,14 +1,12 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react";
 import Repository from "../../components/Repository";
 
 function Repositories() {
     useEffect(() => {
-        document.title = 'Repositories';
+        document.title = "Repositories";
     }, []);
 
-    return (
-        <Repository />
-    );
+    return <Repository />;
 }
 
 export default Repositories;
